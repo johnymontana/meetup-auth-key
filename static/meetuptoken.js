@@ -4,7 +4,7 @@ var redirect = 'https://meetup-auth-key.vercel.app/redirect';
 
 // fetch a meetup oauth2 temporary access token
 $(function() {
-    if (window.location.pathname == '/redirect') {
+    if (window.location.pathname == '/redirect.html') {
         var token = getURLParameter('access_token');
         if (token) {
             $('#header').text('Your one-hour Meetup API access token is:');
