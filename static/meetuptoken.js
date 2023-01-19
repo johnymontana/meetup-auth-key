@@ -1,6 +1,6 @@
 var oauth = 'https://secure.meetup.com/oauth2/authorize';
 var key = 'dojtmnqhqgk2cjo4v4kv9hc8u4';
-var redirect = 'https://meetup-auth-key.vercel.app/redirect';
+var redirect = 'https://meetup-auth-key.vercel.app/redirect.html';
 
 // fetch a meetup oauth2 temporary access token
 $(function() {
